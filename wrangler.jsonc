@@ -1,0 +1,7 @@
+// Cloudflare (Workers con archivos estáticos). Se publica solo con cada push a main.
+// Dirección: https://skay-guia-courier.astra-negocios.workers.dev
+{
+  "name": "skay-guia-courier",
+  "compatibility_date": "2026-10-01",
+  "assets": { "directory": "./.cf-publicar", "html_handling": "auto-trailing-slash", "not_found_handling": "404-page" }
+}
