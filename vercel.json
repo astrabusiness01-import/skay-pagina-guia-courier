@@ -1,6 +1,11 @@
 {
   "redirects": [
     {
+      "source": "/",
+      "destination": "https://skay-guia-courier.astra-negocios.workers.dev/",
+      "permanent": false
+    },
+    {
       "source": "/:path*",
       "destination": "https://skay-guia-courier.astra-negocios.workers.dev/:path*",
       "permanent": false
